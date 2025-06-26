@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        marker: ['"Permanent Marker"', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body class="bg-stone-50 flex justify-center flex-col">
+    <nav class="bg-stone-50/95 backdrop-blur-md text-black md:flex justify-center items-center h-20 sticky z-1000 top-0 hidden">
+        <ul class="flex flex-row gap-10">
+            <a class="text-xs font-bold  p-4 rounded-4xl hover:bg-stone-300" href="#SPEAKERS">SPEAKERS</a>
+            <a class="text-xs font-bold  p-4 rounded-4xl hover:bg-stone-300" href="#SCHEDULE">SCHEDULE</a>
+            <a class="text-xs font-bold  p-4 rounded-4xl hover:bg-stone-300" href="#PARTNERS">PARTNERS</a>
+            <a class="text-xs font-bold  p-4 rounded-4xl hover:bg-stone-300" href="#MINGLE">MINGLE</a>
+            <a class="text-xs font-bold  p-4 rounded-4xl hover:bg-stone-300" href="#PRE-PARTY">PRE-PARTY</a>
+            <a class="text-xs font-bold  p-4 rounded-4xl hover:bg-stone-300" href="#">SWAG</a>
+            <a class="text-xs font-bold bg-black text-white p-4 rounded-4xl hover:bg-stone-800" target="_blank" href="https://www.youtube.com/c/LaraconOnline">PAST VIDEOS</a>
+        </ul>
+    </nav>
+    <main class="flex justify-center flex-col items-center">
+        <img class="w-full" src="public/Screenshot 2025-06-25 220320.png " alt="">
+    </main>
+    <div class="flex justify-center flex-col items-center mt-20">
+        <h1 class="text-bold font-marker md:text-6xl text-5xl">ABOUT</h1>
+        <p class="text-2xl">The largest Laravel event of the year</p>
+        <li class="flex flex-row items-center md:text-2xl text-[20px] w-auto">
+            <p>streaming September 14th on</p>
+            <svg class="fill-red-600 w-10 h-auto ml-2 mr-1.5" viewBox="0 0 24 24">
+                <path
+                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                </path>
+            </svg>
+            <p class="font-bold">YouTube.</p>
+        </li>
+        <p class="md:w-6/12 w-[95%] mt-5 md:text-[20px] text-[16px]">Once again we'll be streaming Laracon for free on YouTube allowing us to
+            reach the entire Laravel community. A huge “THANK YOU” to our <b class="text-[21px]"> incredible
+                partners</b> for helping us achieve
+            this!</p>
+        <p class="md:w-6/12 w-[95%] mt-5 md:text-[20px] text-[16px]">
+            <b>All talks are brand new</b>
+            , never before presented at any Laracon and delivered live during the event. We
+            have 18 amazing speakers lined up
+            <u class="decoration-yellow-300 underline-offset-2">
+                including a keynote from Taylor Otwell
+            </u>
+            on the state of Laravel and what's new in Laravel.
+        </p>
+        <iframe class="md:w-6/12 w-[95%] mt-5 rounded-xl md:h-[400px] h-[200px]" width="560"
+            src="https://www.youtube.com/embed/f4QShF42c6E?si=Qh5Ld-3dxMispgI8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <a class="mt-5 p-3 text-xl outline-black outline-2 font-marker bg-red-600 text-white border-2 rounded-full"
+            href="">SET A REMINDER</a>
+        <div class="md:w-3/12 w-[90%] flex flex-col mt-10">
+            <b class="text-xl">Can't watch it<b class="text-red-600"> ● </b>LIVE?</b>
+            <small class="text-[16px] mt-1"><b>No problem</b>, all talks will be recorded and available online for
+                viewing at your convenience shortly after the conference ends.</small>
+        </div>
+    </div>
+    <div id="SPEAKERS" class="bg-white h-auto mt-10 pt-10 hidden md:flex justify-center items-center flex-col">
+        <h1 class="text-bold font-marker md:text-6xl text-5xl">SPEAKERS</h1>
+        <p class="mt-5 text-2xl font-semibold">The best speakers, contributors, and educators
+        <p class="text-2xl font-semibold">from around the Laravel Community.</p>
+        </p>
+        <ul class="w-10/12 mt-10 flex flex-row justify-center items-center flex-wrap">
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/bosum-egberinde.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+            <li class="text-center p-10">
+                <img class="w-40 h-40 rounded-full" src="public/kai-sassnowski.jpg" alt="">
+                <h1 class="font-bold text-xl">Kai Sassnowski</h1>
+                <p>Type Aficionado</p>
+            </li>
+        </ul>
+    </div>
+    <div id="SCHEDULE" class="mt-16 flex flex-col justify-center items-center">
+        <h1 class="text-bold font-marker md:text-6xl text-5xl">SCHEDULE</h1>
+        <p class="mt-5 text-center md:text-2xl text-[20px] font-semibold">8 smooth-pace talks from a wide variety of topics
+        <p class="md:text-2xl text-[20px] text-center font-semibold">and 10 lightning talks to charge-up your skills.</p>
+        </p>
+        <p class=" mt-2 text-stone-500">All times are in Asia/Calcutta</p>
+        <ol class="w-10/12 mx-auto flex flex-wrap justify-center gap-x-16 gap-y-4 py-10">
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">6:15pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <code class="text-stone-500 text-sm">LARACON_INIT;</code>
+                </div>
+            </li>
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">11:05pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Laravel Update</h2>
+                    <p class="text-sm text-stone-600">by Taylor Otwell</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-red-500 rounded">TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">6:30pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Not Quite My Type</h2>
+                    <p class="text-sm text-stone-600">by Kai Sassnowski</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-red-500 rounded">TALK</span>
+                </div>
+            </li>
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">12:05am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Database Performance for Application Developers</h2>
+                    <p class="text-sm text-stone-600">by Aaron Francis</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-red-500 rounded">TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">7:10pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Kubernetes and Laravel</h2>
+                    <p class="text-sm text-stone-600">by Bosun Egberinde</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-red-500 rounded">TALK</span>
+                </div>
+            </li>
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">12:45am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Christoph Dreams of Simple Code</h2>
+                    <p class="text-sm text-stone-600">by Christoph Rumpel</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-red-500 rounded">TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">7:50pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">The future of Livewire</h2>
+                    <p class="text-sm text-stone-600">by Caleb Porzio</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-red-500 rounded">TALK</span>
+                </div>
+            </li>
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">1:25am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <code class="text-stone-500 text-sm">break;</code>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">8:30pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <code class="text-stone-500 text-sm">break;</code>
+                </div>
+            </li>
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">1:45am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Is there any problem Git interactive rebase can't solve?</h2>
+                    <p class="text-sm text-stone-600">by Rissa Jackson</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">8:50pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Sustainable Self-Care</h2>
+                    <p class="text-sm text-stone-600">by Marje Holmstrom-Sabo</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">2:00am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Meaningful Mentorship</h2>
+                    <p class="text-sm text-stone-600">by Alex Six</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">9:05pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Let's Get Physical: Database Internals and You</h2>
+                    <p class="text-sm text-stone-600">by Tim Martin</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">2:15am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">I shall say…</h2>
+                    <p class="text-sm text-stone-600">...a reflection</p>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">9:20pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Deep Dive into Carbon</h2>
+                </div>
+            </li>
+
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">9:35pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">UI and Component testing with Cypress</h2>
+                    <p class="text-sm text-stone-600">by Marcel Pociot</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">9:50pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">The Hitchhiker's Guide to the Laravel Community</h2>
+                    <p class="text-sm text-stone-600">by Caneco</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">10:05pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Abstracting too early</h2>
+                    <p class="text-sm text-stone-600">by Matt Stauffer</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-red-500 rounded">TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">10:45pm</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <code class="text-stone-500 text-sm">break;</code>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">2:15am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">I shall say…<br>err define this only once</h2>
+                    <p class="text-sm text-stone-600">by Freek Van der Herten</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">2:30am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">I can't believe it's not local!</h2>
+                    <p class="text-sm text-stone-600">by Chris Fidao</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">2:45am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Valid Variants of Validating Validation</h2>
+                    <p class="text-sm text-stone-600">by Luke Downing</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">3:00am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">A Grab Bag of Useful Tips</h2>
+                    <p class="text-sm text-stone-600">by Colin DeCarlo</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-yellow-500 rounded">LIGHTNING
+                        TALK</span>
+                </div>
+            </li>
+
+            <li class="w-[400px] flex gap-3 p-4 bg-stone-100 rounded shadow-sm">
+                <time class="text-lg font-semibold min-w-[60px] text-right">3:15am</time>
+                <div class="border-l-2 border-stone-300 pl-4">
+                    <h2 class="font-bold text-lg">Browsers are Magical Creatures</h2>
+                    <p class="text-sm text-stone-600">by Stephen Rees-Carter</p>
+                    <span
+                        class="inline-block mt-1 px-2 py-0.5 text-xs font-bold text-white bg-red-500 rounded">TALK</span>
+                </div>
+            </li>
+
+        </ol>
+    </div>
+    <div id="PARTNERS" class="bg-stone-200 mt-16 pb-16 flex flex-col justify-center items-center">
+        <h1 class="text-bold font-marker md:text-6xl text-5xl mt-16">PARTNERS</h1>
+        <p class="mt-2 md:text-2xl text-20px font-semibold">They made everything possible…</p>
+        <p class=" mt-2 md:text-2xl text-20px text-stone-600">Once again, Laracon Online will be <b>FREE FOR ALL.</b></p>
+        <p class="md:text-2xl text-20px text-stone-600 text-center">This would not be possible without our amazing partners.</p>
+        <h1 class="font-marker md:text-[40px] text-[30px] text-red-500 mt-2">Thank you!</h1>
+        <!-- gold -->
+        <h1 class="mt-10 mb-5 text-[20px] font-bold">GOLD</h1>
+        <div class="w-10/12 flex flex-wrap justify-center items-center gap-3">
+            <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+            <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+            <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+            <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+        </div>
+        <!-- SILVER -->
+        <h1 class="mt-10 mb-5 text-[20px] font-bold">SILVER</h1>
+        <div class="w-10/12 flex flex-wrap justify-center items-center gap-3">
+            <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+            <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+            <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+        </div>
+        <!-- COMMUNITY -->
+        <h1 class="mt-10 mb-5 text-[20px] font-bold">COMMUNITY</h1>
+        <div class="w-10/12 flex flex-wrap justify-center items-center gap-3">
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+        </div>
+        <!-- FOUNDING PARTNERS -->
+        <h1 class="mt-10 mb-5 text-[20px] font-bold">FOUNDING PARTNERS</h1>
+        <div class="w-10/12 flex flex-wrap justify-center items-center gap-3">
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+             <a class="md:w-auto w-[100%] md:h-auto h-[130px] bg-white flex items-center justify-center overflow-hidden rounded-[5px]" href="">
+                <img class="rounded-[3px] w-[265px]" src="public/sentry.jpg" alt="">
+            </a>
+        </div>
+        <p class=" mt-5 md:text-xl text-[16px] text-stone-600 text-center">Reach<b>the entire Laravel/PHP community,</b></p>
+        <p class=" md:text-xl text-[16px] text-stone-600 text-center">software startups, and founders.</p>
+        <a class="mt-5 p-3 text-xl outline-black outline-2 font-marker bg-red-600 text-white border-2 rounded-full"
+            href="">BECOME A PARTNER</a>
+    </div>
+    <div id="MINGLE" class="flex flex-col justify-center items-center">
+        <h1 class="text-bold font-marker md:text-6xl text-5xl mt-16">MINGLE</h1>
+        <p class="mt-5 md:text-2xl text-[20px] font-semibold">Registered meetups and gatherings,</p>
+        <p class="md:text-2xl text-[20px] font-semibold">watching Laracon Online.</p>
+        <ul class="bg-stone-200 md:w-10/12 w-[100%] p-8 mt-10 rounded-[12px]">
+            <li class="bg-white p-5 rounded-[10px]">
+                <a href="">
+                    <h1 class="font-bold">Bloomington, IL</h1>
+                    <p>Come hang out with other developers from around the midwest as we watch Laracon Online on
+                        September 14th, 2022.</p>
+                </a>
+            </li>
+            <li class="bg-white mt-3 p-5 rounded-[10px]">
+                <a href="">
+                    <h1 class="font-bold">Bern, Switzerland</h1>
+                    <p>Don't be shy and let's meet in Bern for the largest Laravel streaming event. Our plan is to watch
+                        Taylor's keynote and have a good time. Snacks and drinks are provided.</p>
+                </a>
+            </li>
+            <li class="bg-white p-5 mt-3 rounded-[10px] shadow">
+                <h1 class="font-bold">Zwolle, The Netherlands</h1>
+                <p>Come join the 2Solar development team for the Laracon Online Meet-up in our office in Zwolle. Drinks,
+                    pizza and unlimited sharing of knowledge included.</p>
+            </li>
+            <li class="bg-white p-5 mt-3 rounded-[10px] shadow">
+                <h1 class="font-bold">Dodoma, Tanzania</h1>
+                <p>Artisans wanna hang out together relax and enjoy Laracon, if you're in Tanzania tz come join us. It's
+                    gonna be fun!</p>
+            </li>
+            <li class="bg-white p-5 mt-3 rounded-[10px] shadow">
+                <h1 class="font-bold">Subotica, Serbia</h1>
+                <p>In This Meetup, we will stream the Laracon Online event. Besides this, we will order some Pizza and
+                    Provide some Beer :)</p>
+            </li>
+            <li class="bg-white p-5 mt-3 rounded-[10px] shadow">
+                <h1 class="font-bold">India</h1>
+                <p>Laracon India is happening in February 2022, so all different city-based community volunteers decided
+                    to host Laracon parties in their cities. Artisans from India want to meet each other and are excited
+                    in advance to attend the Laracon online in person.</p>
+            </li>
+            <li class="bg-white p-5 mt-3 rounded-[10px] shadow">
+                <h1 class="font-bold">Odense, Denmark</h1>
+                <p>Come join the Ephort team for Laracon Online Viewing party at our office - we will off course provide
+                    IRL drinks and food to accompany the virtuel knowledge.</p>
+            </li>
+            <li class="bg-white p-5 mt-3 rounded-[10px] shadow">
+                <h1 class="font-bold">Sofia, Bulgaria</h1>
+                <p>Come and hangout with AMPECO development team while watching Laracon Online. We will discuss Laravel
+                    and of course our other passion - Electric Vehicles. Pizza and beers are included! 🍕🍺</p>
+            </li>
+            <li class="bg-white p-5 mt-3 rounded-[10px] shadow">
+                <a href="#">
+                    <h1 class="font-bold">Bloomington, IL</h1>
+                    <p>Come hang out with other developers from around the midwest as we watch Laracon Online on
+                        September 14th, 2022.</p>
+                </a>
+            </li>
+            <li class="bg-white p-5 mt-3 rounded-[10px] shadow">
+                <a href="#">
+                    <h1 class="font-bold">Bern, Switzerland</h1>
+                    <p>Don't be shy and let's meet in Bern for the largest Laravel streaming event. Our plan is to watch
+                        Taylor's keynote and have a good time. Snacks and drinks are provided.</p>
+                </a>
+            </li>
+        </ul>
+        <p class=" mt-5 text-xl text-stone-600">Throwing a viewing party?</p>
+        <a class="mt-3 p-3 text-xl outline-black outline-2 font-marker bg-red-600 text-white border-2 rounded-full"
+            href="">GET IN TOUCH</a>
+    </div>
+    <div id="PRE-PARTY" class="flex flex-col justify-center items-center bg-white pb-16 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)]">
+        <h1 class="text-bold font-marker md:text-6xl text-5xl mt-16">PRE-PARTY</h1>
+        <p class="mt-2 md:text-2xl md:w-[500px] w-[95%] text-[16px] text-center font-semibold">Tune in the official pre-party no other than the dynamo duo <b>@freekmurze</b> and <b>@christophrumpel</b> to warm-up the crowd.</p>
+        <iframe class="md:w-6/12 w-[95%] mt-5 rounded-xl md:h-[400px] h-[200px]" width="560"
+            src="https://www.youtube.com/embed/3Bzb5fsn4Jo?si=FtXR4UkpYGyO8njn" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <a class="mt-3 p-3 text-xl outline-black outline-2 font-marker bg-red-600 text-white border-2 rounded-full"
+            href="">SET A REMINDER</a>
+    </div>
+    <div class="bg-[url('public/bg-f.png')] bg-center flex flex-col items-center pt-16 h-[600px]">
+        <p class="md:text-2xl text-[25px] font-semibold">The HEADS<p>
+        <p class="md:text-2xl text-[20px] font-semibold">that brought this website to your browser</p>
+        <img class="md:w-auto w-[250px]" src="public/face.png" alt="">
+        <ul class="flex flex-row gap-20">
+            <a class="text-2xl font-marker hover:underline" href="">@caneco</a>
+            <a class="text-2xl font-marker hover:underline" href="">@flicknelson</a>
+        </ul>
+        <a class="mt-5 p-3 text-xl outline-black outline-2 font-marker bg-red-600 text-white border-2 rounded-full"
+            href="">TWEET THEN A CHERRY</a>
+    </div>
+    <div class="bg-black text-white h-10/12 md:p-10 p-3 text-center">
+        <p>
+            Produced by
+            <a class="hover:underline focus:outline hover:text-white font-medium text-gray-300"
+                href="https://userscape.com" rel="external" target="_blank" tabindex="-1">UserScape</a>,
+            <a class="hover:underline focus:outline hover:text-white font-medium text-gray-300"
+                href="https://laravel-news.com" rel="external" target="_blank" tabindex="-1">Laravel News</a>,
+            <a class="hover:underline focus:outline hover:text-white font-medium text-gray-300"
+                href="https://laravel.com" rel="external" target="_blank" tabindex="-1">Laravel</a>
+            <span class="sm:inline hidden">|</span>
+            <br class="sm:hidden block">
+            Developed by
+            <a href="https://twitter.com/caneco" rel="external" target="_blank" tabindex="-1"
+                class="hover:underline focus:outline hover:text-white font-medium text-gray-300">Caneco</a>
+            <span>|</span>
+            Illustrated by
+            <a href="https://twitter.com/flicknelson" rel="external" target="_blank" tabindex="-1"
+                class="hover:underline focus:outline hover:text-white font-medium text-gray-300">FlickNelson</a>
+        </p>
+        <p>Copyright © <span x-data="" x-text="(new Date).getFullYear()">2025</span> <a
+                href="https://userscape.com?ref=laracon" rel="external" target="_blank" tabindex="-1"
+                class="hover:underline focus:outline hover:text-white font-medium text-gray-300">UserScape</a></p>
+    </div>
+</body>
+
+</html>
